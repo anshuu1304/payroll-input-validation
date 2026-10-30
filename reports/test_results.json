@@ -1,0 +1,9 @@
+{
+  "test_framework": "pytest",
+  "passed": 10,
+  "failed": 0,
+  "command": "python -m pytest -q",
+  "compileall": "passed",
+  "full_pipeline": "passed",
+  "full_pipeline_runtime_seconds_approx": 2.2
+}

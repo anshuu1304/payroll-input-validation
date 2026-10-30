@@ -1,0 +1,38 @@
+{
+  "seed": 20261022,
+  "size": "full",
+  "generated": {
+    "employees": 3000,
+    "time": 36000,
+    "allowance": 36015,
+    "deduction": 36010,
+    "leave": 9000
+  },
+  "metrics": {
+    "pay_group": 4,
+    "employee": 3000,
+    "pay_period": 3,
+    "time_entry": 36000,
+    "leave_record": 9000,
+    "allowance": 36015,
+    "deduction": 36010,
+    "payroll_input": 9000,
+    "validation_rule": 5,
+    "exception_record": 52,
+    "approval": 8974,
+    "payroll_export": 8974,
+    "source_transactions": 108025,
+    "open_exceptions": 52,
+    "fk_violations": 0,
+    "exports_with_open_exceptions": 0,
+    "export_duplicates": 0,
+    "missing_approval": 0,
+    "detection": {
+      "true_positive": 52,
+      "false_positive": 0,
+      "false_negative": 0,
+      "precision": 1.0,
+      "recall": 1.0
+    }
+  }
+}

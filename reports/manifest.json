@@ -1,0 +1,71 @@
+{
+  "project": "Payroll Input Validation & Reconciliation (Reconstructed)",
+  "python_version": "3.13.5",
+  "seed": 20261022,
+  "dataset": {
+    "employees": 3000,
+    "time": 36000,
+    "allowance": 36015,
+    "deduction": 36010,
+    "leave": 9000
+  },
+  "metrics": {
+    "pay_group": 4,
+    "employee": 3000,
+    "pay_period": 3,
+    "time_entry": 36000,
+    "leave_record": 9000,
+    "allowance": 36015,
+    "deduction": 36010,
+    "payroll_input": 9000,
+    "validation_rule": 5,
+    "exception_record": 52,
+    "approval": 8974,
+    "payroll_export": 8974,
+    "source_transactions": 108025,
+    "open_exceptions": 52,
+    "fk_violations": 0,
+    "exports_with_open_exceptions": 0,
+    "export_duplicates": 0,
+    "missing_approval": 0,
+    "detection": {
+      "true_positive": 52,
+      "false_positive": 0,
+      "false_negative": 0,
+      "precision": 1.0,
+      "recall": 1.0
+    }
+  },
+  "test_results": {
+    "test_framework": "pytest",
+    "passed": 10,
+    "failed": 0,
+    "command": "python -m pytest -q",
+    "compileall": "passed",
+    "full_pipeline": "passed",
+    "full_pipeline_runtime_seconds_approx": 2.2
+  },
+  "same_seed_full_run_identical": true,
+  "same_seed_ground_truth_identical": true,
+  "sha256": {
+    ".gitignore": "456982b28fce5f201539f20e5080519cdf476f7ab7bdc9828357aa91b2722353",
+    "README.md": "9d4aedec1ae312335d74574540285f1f0f72e6a40103f3727b4a7b1eed89bfa1",
+    "docs/data_dictionary.md": "a711eb8f96cc863f20b2e3be005a13a300abb42f19e6dc230c3c21506b6d156f",
+    "docs/limitations.md": "945c83dbebfb91c3a88c4dc6d7e27010d926692b37d8a609f5d1d13e0fef256e",
+    "docs/review_findings.md": "384f1cc2d65117f13b38518792dcfce8e1f1d7b2dc6e64189e874777c0032876",
+    "docs/risk_register.md": "60837118a95f7270af4e789779525323f2fd53d93fcad85ad5550dc23338481f",
+    "payroll/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "payroll/db.py": "e89a74dce4200bfaa97c351f42f69bccb1e271d0c73d1850133339902e1ba660",
+    "payroll/evaluate.py": "702b44a6af0dd618fc74ddecd640e7f7e1f170a88ed5f05a16431d81e2dd0d7c",
+    "payroll/generate.py": "0d1193d23d895c4d67573879792629bf45ec77fe32c2ba91e285e57e7bf0c573",
+    "payroll/run.py": "5f9a0b4d3e0e25458c73724aab98575709cacd0d4898654aa59c3d20342194c9",
+    "payroll/schema.sql": "33053bccd612bd721a31137e9a4a49450b7f8d17d36c621e6204ed9a5f2fb7ea",
+    "payroll/validate.py": "e765a918ce721dcd71df92bd9819173d5e75af04148e9cf76510b3a76df8cdbb",
+    "payroll/workflow.py": "4f47784bbb70d148b658e31257e3366873998bf6a27cd706cc994a898c7e12b0",
+    "reports/ground_truth.json": "cb91901bfd1d4adc1c3a9cf145a27ea0e1c94bfdd5cee5e476b0ac166e133a6b",
+    "reports/summary.json": "9e14b7916be4c05768c3f7afbe4f669ece7ae48222e3f2a489bac55753440eeb",
+    "reports/test_results.json": "d86dbfcf07e332efd0567933a0ae2a3db6bbcf21ae9a84175e7f349383744144",
+    "requirements.txt": "7976e5b8f70089d046ac7aeb74c405be06913d4eb236f4e1bd4df4d2d160f36f",
+    "tests/test_project.py": "4120d197b6592580a86b66997966d9e3eaffa6bbdd2b488d4b73dfcc4f19837b"
+  }
+}
